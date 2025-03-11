@@ -140,7 +140,7 @@ For example:
 ### Evaluation
 
 **Video Preparation**    
-Download the videos to the folder `uve_bench_videos/`
+Download the videos from this [link](https://huggingface.co/datasets/lyx97/UVE-Bench) to the folder `uve_bench_videos/`
 
 **Evaluate MLLMs**  
 ```bash
