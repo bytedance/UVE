@@ -16,7 +16,7 @@ bash scripts/setup_env.sh
 <div style="display: flex; justify-content: space-between;">
   <div style="text-align: center; width: 45%;">
     <h3>mochi_00002.mp4</h3>
-    <video src="./example_videos/mochi_00002.mp4" width="100%"></video>
+    <video src="https://github.com/bytedance/UVE/blob/main/example_videos/mochi_00002.mp4" width="100%"></video>
   </div>
   <div style="text-align: center; width: 45%;">
     <h3>OpenSora1.2_00002.mp4</h3>
