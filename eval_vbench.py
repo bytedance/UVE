@@ -1,3 +1,14 @@
+# Copyright (c) 2024 vbench authors
+# Copyright (c) 2024 Bytedance Ltd. and/or its affiliates
+# SPDX-License-Identifier: Apache-2.0 
+#
+# This file has been modified by Bytedance Ltd. and/or its affiliates on 2024
+#
+# Original file was released under Apache License, Version 2.0, with the full license text
+# available at http://www.apache.org/licenses/LICENSE-2.0.
+#
+# This modified file is released under the same license.
+
 import torch
 import os
 from vbench import VBench
