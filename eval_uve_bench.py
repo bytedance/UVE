@@ -119,7 +119,7 @@ if __name__ == '__main__':
     parser.add_argument('--chunk_idx', default=0, type=int)
     args = parser.parse_args()
 
-    evaluator = UVE(args.model_name, args.max_num_frames, args.local_model_path, args.base_url, args.ak)
+    evaluator = UVE(args.model_name, args.max_num_frames, args.local_model_path, base_url=args.base_url, ak=args.ak)
 
     args.infer_result_file = f"{args.result_path}/{args.eval_mode}{args.prompt_type if args.prompt_type!='full' else ''}_frame{args.max_num_frames}_{args.num_chunks}_{args.chunk_idx}.json"
     os.makedirs(os.path.dirname(args.infer_result_file), exist_ok=True)
