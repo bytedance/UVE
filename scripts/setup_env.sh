@@ -1,6 +1,7 @@
 pip install wheel
 pip install transformers==4.45.0
 pip install torch==2.2.2 torchvision==0.17.2 torchaudio==2.2.2 --index-url https://download.pytorch.org/whl/cu121
+pip install ninjia
 pip install flash-attn==2.6.1 --no-build-isolation --no-cache-dir
 pip install 'accelerate>=0.26.0'
 pip install qwen-vl-utils[decord]
