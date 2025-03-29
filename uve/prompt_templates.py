@@ -81,7 +81,7 @@ Watch the above two AI-generated videos and evaluate how well their video conten
 Complete your evaluation by answering this question:
 Which video is more aligned with "${source}"?
 
-You shold make your judgement based on the following rules:
+you should make your judgement based on the following rules:
     - If the first video aligns better with the text, answer "the first video" 
     - Else, if the second video aligns better with the text, answer "the second video". 
     - Else, if both videos align equally well with the text, answer "same good". 
@@ -104,7 +104,7 @@ Focus on video-text alignment in terms of subject (e.g., a person, an animal, a 
 Complete your evaluation by answering this question:
 Which video is more aligned with "${source}"?  
 
-You shold make your judgement based on the following rules:
+you should make your judgement based on the following rules:
     - If the first video aligns better with the text, answer "the first video" 
     - Else, if the second video aligns better with the text, answer "the second video". 
     - Else, if both videos align equally well with the text, answer "same good". 
@@ -122,7 +122,7 @@ Focus on video-text alignment in terms of motion (e.g., human actions, object mo
 Complete your evaluation by answering this question:
 Which video is more aligned with "${source}"? 
 
-You shold make your judgement based on the following rules:
+you should make your judgement based on the following rules:
     - If the first video aligns better with the text, answer "the first video" 
     - Else, if the second video aligns better with the text, answer "the second video". 
     - Else, if both videos align equally well with the text, answer "same good". 
@@ -274,15 +274,9 @@ Pay attention to three aspects: camera movement, subject (e.g., a person, an ani
 Complete your evaluation by answering this question:
 Which video displays higher dynamic degree?
 
-You shold make your judgement based on the following rules:
+you should make your judgement based on the following rules:
     - If the first video is more dynamic, answer "the first video"
     - Else, if the second video is more dynamic, answer "the second video". 
-    - Else, if both videos display equally high dynamic, answer "same high". 
-    - Else, if both videos display equally low dynamic, answer "same low".
-    - Provide your answer directly as "the first video", "the second video", "same high" or "same low".
-
-You shold make your judgement based on the following rules:
-    - If one video is more dynamic, answer "the first video" or "the second video". 
     - Else, if both videos display equally high dynamic, answer "same high". 
     - Else, if both videos display equally low dynamic, answer "same low".
     - Provide your answer directly as "the first video", "the second video", "same high" or "same low".
@@ -303,7 +297,7 @@ Please focus on the change of lighting conditions and colors.
 Complete your evaluation by answering this question:
 Which video displays larger changes in lighting conditions or colors?
 
-You shold make your judgement based on the following rules:
+you should make your judgement based on the following rules:
     - If one video displays larger light or color changes, answer "the first video" or "the second video". 
     - Else, if both videos display equally large light or color changes, answer "same high". 
     - Else, if both videos display equally small light or color changes, answer "same low".
@@ -325,7 +319,7 @@ Please focus on camera movement.
 Complete your evaluation by answering this question:
 Which video displays higher degree of camera movement?
 
-You shold make your judgement based on the following rules:
+you should make your judgement based on the following rules:
     - If one video displays higher degree of camera movement, answer "the first video" or "the second video". 
     - Else, if both videos display equally high degree of camera movement, answer "same high". 
     - Else, if both videos display equally low degree of camera movement, answer "same low".
@@ -347,7 +341,7 @@ Please focus on the movement of subjects (e.g., a person, an animal, a vehicle o
 Complete your evaluation by answering this question:
 Which video displays higher degree of subject movement?
 
-You shold make your judgement based on the following rules:
+you should make your judgement based on the following rules:
     - If one video displays higher degree of subject movement, answer "the first video" or "the second video". 
     - Else, if both videos display equally high degree of subject movement, answer "same high".
     - Else, if both videos display equally low degree of subject movement, answer "same low".
@@ -515,7 +509,7 @@ Pay attention to the following aspects in your assessment:
 Complete your evaluation by answering this question:
 Which video has better visual quality?
 
-You shold make your judgement based on the following rules:
+you should make your judgement based on the following rules:
     - If the visual quality of the first video is better than the second video, answer "the first video".
     - Else, if the visual quality of the second video is better than the first video, answer "the second video".
     - Else, if both videos demonstrate equally good visual quality, answer "same good".
@@ -538,7 +532,7 @@ The aesthetic quality is considered good if the frame has a well-structured layo
 Complete your evaluation by answering this question:
 Which video has better aesthetic quality?
 
-You shold make your judgement based on the following rules:
+you should make your judgement based on the following rules:
     - If the aesthetic quality of the first video is better than the second video, answer "the first video".
     - Else, if the aesthetic quality of the second video is better than the first video, answer "the second video".
     - Else, if both videos demonstrate equally good aesthetic quality, answer "same good".
@@ -561,7 +555,7 @@ The technical quality is considered good if the frame is free from unwanted nois
 Complete your evaluation by answering this question:
 Which video has better technical quality?
 
-You shold make your judgement based on the following rules:
+you should make your judgement based on the following rules:
     - If the technical quality of the first video is better than the second video, answer "the first video".
     - Else, if the technical quality of the second video is better than the first video, answer "the second video".
     - Else, if both videos demonstrate equally good technical quality, answer "same good".
@@ -584,7 +578,7 @@ The subject structure is considered correct if it aligns with common sense and r
 Complete your evaluation by answering this question:
 Which video has better structual correctness?
 
-You shold make your judgement based on the following rules:
+you should make your judgement based on the following rules:
     - If the structual correctness of the first video is better than the second video, answer "the first video".
     - Else, if the structual correctness of the second video is better than the first video, answer "the second video".
     - Else, if both videos demonstrate equally good structual correctness, answer "same good".
@@ -753,7 +747,7 @@ Pay attention to the following aspects in your assessment:
 Complete your evaluation by answering this question:
 Which video has better visual quality from the temporal perspective?
 
-You shold make your judgement based on the following rules:
+you should make your judgement based on the following rules:
     - If the temporal visual quality of the first video is better than the second video, answer "the first video".
     - Else, if the temporal visual quality of the second video is better than the first video, answer "the second video".
     - Else, if both videos demonstrate equally good temporal visual quality, answer "same good".
@@ -776,7 +770,7 @@ Unnatural motion may include subjects (e.g., people, animals, vehicles or object
 Complete your evaluation by answering this question:
 Which video demonstrates more natural subject motions that better adhere to physical laws?
 
-You shold make your judgement based on the following rules:
+you should make your judgement based on the following rules:
     - If the subject motion of the first video is more natural than the second video, answer "the first video".
     - Else, if the subject motion of the second video is more natural than the first video, answer "the second video".
     - Else, if both videos demonstrate equally good subject motion naturalness, answer "same good".
@@ -799,7 +793,7 @@ Inconsistent appearance may include changes in subject (e.g., a person, an anima
 Complete your evaluation by answering this question:
 Which video demonstrates more consistent subject and scene appearance across frames?
 
-You shold make your judgement based on the following rules:
+you should make your judgement based on the following rules:
     - If the subject and scene appearance of the first video is more consistent than the second video, answer "the first video".
     - Else, if the subject and scene appearance of the second video is more consistent than the first video, answer "the second video".
     - Else, if both videos demonstrate equally good appearance consistency, answer "same good".
@@ -822,7 +816,7 @@ Temporal flickering and jitterring refers to the imperfect temporal consistency 
 Complete your evaluation by answering this question:
 Which video exhibits fewer unwanted temporal flickering and jitterring that negatively affect visual quality?
 
-You shold make your judgement based on the following rules:
+you should make your judgement based on the following rules:
     - If the first video has fewer temporal flickering and jitterring than the second video, answer "the first video".
     - Else, if the second video has fewer temporal flickering and jitterring than the first video, answer "the second video".
     - Else, if both videos are free of unwanted temporal flickering and jitterring, answer "same good".
