@@ -43,5 +43,5 @@ fi
 # Concatnate inference results from multi-gpu
 python3 cat_eval_results.py \
     --result_path $result_path \
-    --result_prefix "${eval_mode}${prompt_type}_frame${max_num_frames}_${CHUNKS}" \
+    --result_prefix "${eval_mode}${prompt_type}_frame${max_num_frames}_${gpu_count}" \
     --eval_mode $eval_mode
