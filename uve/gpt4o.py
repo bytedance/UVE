@@ -21,7 +21,7 @@ from .constants import *
 def eval_gpt4o_single(video_path, video_prompt, aspect, eval_mode, prompt_type,
                       model, processor, tokenizer, max_num_frames, 
                       pos_tokens, neg_tokens, custom_prompt,
-                      model_name="gpt-4o-2024-08-06", sys_prompt="You are an expert in video understanding."):
+                      model_name="gpt-4o-2024-08-06", sys_prompt="You are an expert in video understanding.", maxtry=10):
     template = Template(mode2prompt[eval_mode][aspect])
     prompt = template.substitute(source=video_prompt) if aspect.startswith('tv_alignment') else template.template
 
@@ -49,7 +49,7 @@ def eval_gpt4o_single(video_path, video_prompt, aspect, eval_mode, prompt_type,
 def eval_gpt4o_pairwise(video_paths, video_prompt, aspect, eval_mode, prompt_type,
                       model, processor, tokenizer, max_num_frames, 
                       pos_tokens, neg_tokens, custom_prompt,
-                      model_name="gpt-4o-2024-08-06", sys_prompt="You are an expert in video understanding."):
+                      model_name="gpt-4o-2024-08-06", sys_prompt="You are an expert in video understanding.", maxtry=10):
     template = Template(mode2prompt[eval_mode][aspect])
     prompt = template.substitute(source=video_prompt) if aspect.startswith('tv_alignment') else template.template
 
