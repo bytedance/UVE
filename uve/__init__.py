@@ -17,7 +17,7 @@ import importlib
 
 class UVE(object):
     def __init__(self, model_name, max_num_frames, local_model_path=None,
-                 base_url=None, api_version=None, ak=None):
+                 base_url=None, ak=None):
         """
             local_model_path: local path to load mllms
         """
